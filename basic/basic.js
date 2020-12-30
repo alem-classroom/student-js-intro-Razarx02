@@ -53,7 +53,7 @@ const change = (N, C, K, L) => {
         return "no enough";
     }
 
-    return "$" + (K - N) + "." (L - C);
+    return "$" + (K - N) + "." + (L - C);
     // your code here
 }
 
