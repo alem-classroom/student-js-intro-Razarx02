@@ -1,11 +1,12 @@
-const number = null
-const float = null
-const str = null
-const bool = null
-const undef = null
-const nullVar = null
+const number = 125;
+const float = 125.5;
+const str = "Hello";
+const bool =  true;
+const undef = undefined;
+const nullVar = null;
 
 const square = (n) => {
+   
     // your code here
 }
 
