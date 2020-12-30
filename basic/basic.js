@@ -16,11 +16,11 @@ const hello = (name) => {
 
 const concat = (strings) => {
     // your code here
-    return strings[0] + " " + strings[1]; 
+    return `${strings[0]} ${strings[1]}`; 
  }
 
-const getType = (value) => {
-    return typeof(value);
+function getType(value) {
+    return typeof (value);
     // your code here
 }
 
