@@ -14,10 +14,10 @@ const hello = (name) => {
    console.log("Hello, " + name + "!");
 }
 
-const concat = (strings) => {
+function concat(strings) {
     // your code here
-    return `${strings[0]} ${strings[1]}`; 
- }
+    return `${strings[0]} ${strings[1]}`;
+}
 
 function getType(value) {
     return typeof (value);
