@@ -1,8 +1,8 @@
 const number = 125;
 const float = 125.5;
 const str = "Hello";
-const bool =  true;
-const undef = undefined;
+const bool =  3 > 2;
+const undef;
 const nullVar = null;
 
 const square = (n) => {
@@ -12,7 +12,7 @@ const square = (n) => {
 
 const hello = (name) => {
 
-    return `Hello, ${name}!`;
+    console.log(`Hello, ${name}!`);
 
   
 }
@@ -101,7 +101,7 @@ const countChar = (str, char) => {
         }
     }
 
-    return count;
+    console.log(count);
     // your code here
 }
 
