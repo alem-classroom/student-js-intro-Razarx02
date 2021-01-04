@@ -11,9 +11,9 @@ const square = (n) => {
 }
 
 const hello = (name) => {
-    if (name != "") {
-        console.log(`Hello, ${name}!`);
-    }
+
+    console.log(`Hello, ${name}!`);
+
   
 }
 
