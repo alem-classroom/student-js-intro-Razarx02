@@ -65,8 +65,8 @@ const change = (N, C, K, L) => {
 
 const triangle = (height) => {
     let text = "";
-    for (i = 1; i <= height; i++) {
-        for (z = 0; z < i; z++) {
+    for (let i = 1; i <= height; i++) {
+        for (z 0= 0; z < i; z++) {
             text = text + "#";
         }
         text = text + "\n";
@@ -78,7 +78,7 @@ const triangle = (height) => {
 const fizzbuzz = (N) => {
     let array = [];
 
-    for (i = 0; i < N; i++) {
+    for (let i = 0; i < N; i++) {
         if (i % 3 === 0) {
                 array.push("Fizz");
         }
@@ -95,7 +95,7 @@ const fizzbuzz = (N) => {
 
 const countChar = (str, char) => {
     let count = 0;
-    for( i = 0; i < str.length; i++) {
+    for( let i = 0; i < str.length; i++) {
         if (str.charAt(i) === char) {
             count = count + 1;
         }
