@@ -2,7 +2,7 @@ const number = 125;
 const float = 125.5;
 const str = "Hello";
 const bool =  3 > 2;
-const undef;
+const undef  = undefined;
 const nullVar = null;
 
 const square = (n) => {
