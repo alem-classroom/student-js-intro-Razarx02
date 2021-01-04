@@ -12,7 +12,7 @@ const square = (n) => {
 
 const hello = (name) => {
 
-    console.log(`Hello, ${name}!`);
+    return `Hello, ${name}!`;
 
   
 }
