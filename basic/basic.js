@@ -66,7 +66,7 @@ const change = (N, C, K, L) => {
 const triangle = (height) => {
     let text = "";
     for (let i = 1; i <= height; i++) {
-        for (z 0= 0; z < i; z++) {
+        for (let z = 0; z < i; z++) {
             text = text + "#";
         }
         text = text + "\n";
