@@ -20,7 +20,7 @@ const concat = (strings) => {
 }
 
 const getType = (value) => {
-    return (typeof (value));
+    return (typeof value);
     // your code here
 }
 
@@ -52,8 +52,9 @@ const change = (N, C, K, L) => {
     if (K - N < 0) {
         return "no enough";
     }
-
-    return "$" + (K - N) + "." + (L - C);
+     let a  = K - N;
+     let b = L - C;
+    return `$${a}.${b}`;
     // your code here
 }
 
@@ -92,7 +93,7 @@ const fizzbuzz = (N) => {
 const countChar = (str, char) => {
     let count = 0;
     for( i = 0; i < str.length; i++) {
-        if (str.charAt(i) == char) {
+        if (str.charAt(i) === char) {
             count = count + 1;
         }
     }
