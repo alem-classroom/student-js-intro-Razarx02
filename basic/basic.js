@@ -11,7 +11,7 @@ const square = (n) => {
 }
 
 const hello = (name) => {
-  return `Hello, ${name}!`;
+  console.log(`Hello, ${name}!`);
 }
 
 const concat = (strings) => {
