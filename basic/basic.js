@@ -11,10 +11,7 @@ const square = (n) => {
 }
 
 const hello = (name) => {
-
-    console.log(`Hello, ${name}!`);
-
-  
+    console.log(`Hello, ${name}!`);  
 }
 
 const concat = (strings) => {
@@ -34,19 +31,23 @@ const max = (a, b) => {
     } else {
         return b;
     }
-    return a;
     // your code here
 }
 
 const max3 = (a, b, c) => {
 
-    if (a > b && a > c) {
-        return a;
-    } else if ( b > a && a > c) {
-        return b;
+    let max;
+
+    if (a > b) {
+        max = a;
     } else {
-        return c;
+        max = b;
     }
+
+    if (c > max) {
+        max = c;
+    }
+    return max;
     // your code here
 }
 
