@@ -6,30 +6,30 @@ const undef  = undefined;
 const nullVar = null;
 
 const square = (n) => {
-    return n*n;
+    console.log(n*n);
     // your code here
 }
 
 const hello = (name) => {
-    return(`Hello, ${name}!`);  
+    console.log(`Hello, ${name}!`);  
 }
 
 const concat = (strings) => {
     // your code here
-    return `${strings[0]}${strings[1]}`;
+    console.log(`${strings[0]}${strings[1]}`);
 }
 
 const getType = (value) => {
-    return (typeof value);
+    console.log(typeof value);
     // your code here
 }
 
 const max = (a, b) => {
 
     if (a > b ) {
-        return a;
+        console.log(a);
     } else {
-        return b;
+        console.log(b);
     }
     // your code here
 }
@@ -47,7 +47,7 @@ const max3 = (a, b, c) => {
     if (c > max) {
         max = c;
     }
-    return max;
+    console.log(max);
     // your code here
 }
 
@@ -58,7 +58,7 @@ const change = (N, C, K, L) => {
     }
      let a  = K - N;
      let b = L - C;
-    return `$${a}.${b}`;
+    console.log(`$${a}.${b}`);
     // your code here
 }
 
@@ -72,7 +72,7 @@ const triangle = (height) => {
         }
         text = text + "\n";
     }
-    return text;
+    console.log(text);
     // your code here
 }
 
@@ -90,7 +90,7 @@ const fizzbuzz = (N) => {
             array.push(i);
         }
     }
-    return array;
+    console.log(array);
     // your code here
 }
 
@@ -102,7 +102,7 @@ const countChar = (str, char) => {
         }
     }
 
-    return(count);
+    console.log(count);
     // your code here
 }
 
